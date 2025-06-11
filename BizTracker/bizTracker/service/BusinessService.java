@@ -18,12 +18,7 @@ public class BusinessService {
                 System.out.println("Business already exists!");
                 return;
             }
-            
-                
-                
-           
-
-        }
+            }
         businesses.add(business);
        // businesses.add(business);
     }
@@ -40,11 +35,7 @@ public class BusinessService {
             if(b.getName().equalsIgnoreCase(name)){
                 return b;
             }
-            
-
-        }
+            }
         return null;
-
-
-    }
+}
 }
